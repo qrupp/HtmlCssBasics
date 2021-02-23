@@ -1,0 +1,35 @@
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    
+
+    /* En kortere versjon av det som omhandler fonter over
+    font: normal 16px Arial, Helvetica, sans-serif;*/
+
+    line-height: 1.6em;
+
+    margin: 0%;
+
+}
+
+.container{
+    width: 80%; /*Bruk 80% av skjermstørrelsen*/
+    margin: auto; /*Dette gjelder avstand fra kantene til rammen*/
+}
+
+.box-1{
+    background-color: #333333;
+    color: #ffffff;
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+
+    padding-top: 20px; /*Dette gjelder avstand inne i rammen*/
+     
+}
